@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+#errorMsg {
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    color: #000;
+    font-size: 18px;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+input {
+    background-color: brown;
+    color: #FFF;
+    margin-right: 1rem;
+}
+
+input[type='text'] {
+    width: 20rem;
+    height: 5rem;
+}
+
+button {
+    background-color: brown;
+    color: #FFF;
+    width: 15rem;
+    height: 2rem;
+}
+
+textarea {
+    width: 40vw;
+    height: 30vh;
+    margin-bottom: 1rem;
+}
